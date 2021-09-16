@@ -10,7 +10,7 @@ export function getTopStoriesAPI() {
   return axios.get(urlFormatter('topstories'))
 }
 
-export function getStoryAPI(itemID: string) {
+export function getStoryAPI(itemID: number) {
   return axios.get(urlFormatter(`item/${itemID}`))
 }
 
